@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, auto);
+    place-items: center;
+}
+
+#convertBtn{
+    width: fit-content;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#convertBtn:hover{
+    background-color: rgb(36, 118, 212);
+}
+
+#convertBtn:active{
+    background-color: rgb(101, 173, 255);
+}
+
+#resetBtn{
+    width: fit-content;
+    background-color: rgb(0, 236, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#resetBtn:hover{
+    background-color: rgb(0, 201, 0);
+}
+
+#resetBtn:active{
+    background-color: rgb(103, 255, 103);
+}

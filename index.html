@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Temperature Convertor</h1>
+
+    <div style="display: flex; margin-bottom: 1rem;">
+        <h3 style="margin: 0; white-space: pre;">Select type to convert: </h3>
+        <select id="typeSlec">
+            <option id="typeSlec1">Celcius to Fahrenheit</option>
+            <option id="typeSlec2">Fahrenheit to Celcius</option>
+        </select>
+    </div>
+
+    <div style="display: flex; margin-bottom: 1rem;">
+        <input type="number" id="num1Inp" style="font-size: 20px; width: 100px;" placeholder="℃">
+        <p style="white-space: pre; font-size: 20px; margin: 0;">  →  </p>
+        <input type="number" id="num2Inp" style="font-size: 20px; width: 100px;" placeholder="℉" disabled>
+    </div>
+
+    <div>
+        <input type="button" value="Convert" id="convertBtn">
+        <input type="button" value="Reset" id="resetBtn">
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
